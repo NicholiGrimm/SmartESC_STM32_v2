@@ -7,10 +7,10 @@
 #define BAUD_RATE_SMARTESC_XIAOMI 115200 // default baudrate of UART on SmartESC
 
 // pin layout
-#define PIN_SERIAL_ESP_TO_CNTRL 27 // TX esp32 -> RX controller
-#define PIN_SERIAL_CNTRL_TO_ESP 14 // RX esp32 <- TX controller
-#define PIN_IN_ABRAKE 34           // Brake
-#define PIN_IN_ATHROTTLE 39        // Throttle
+#define PIN_SERIAL_ESP_TO_CNTRL 1 // TX esp32 -> RX controller
+#define PIN_SERIAL_CNTRL_TO_ESP 3 // RX esp32 <- TX controller
+#define PIN_IN_ABRAKE 4            // Brake
+#define PIN_IN_ATHROTTLE 5         // Throttle
 
 // send orders every 40ms
 #define TIME_SEND 40
